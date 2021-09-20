@@ -6,6 +6,8 @@
 
 ```Uso: python PortaBellaso.py claves [documento de texto con el texto cifrado] [documento de texto con las palabras]```
 
+> en el documento de texto con las palabras, poner una en cada línea
+
 Ejemplo
 
 ```python PortaBellaso.py claves text1.txt words1.txt```
