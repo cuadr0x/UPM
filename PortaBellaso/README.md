@@ -44,9 +44,9 @@ STOP
 
 ### Output
 
-Possible passwords for  INVESTIGADORES :  ST-ST-EF-QR-IJ-CD-AB-CD-AB-UV-ST-ST-EF-QR
+Posibles contraseñas para  INVESTIGADORES :  ST-ST-EF-QR-IJ-CD-AB-CD-AB-UV-ST-ST-EF-QR
 
-Possible passwords for  STOP :  QR-GH-OP-KL | UV-YZ-EF-QR | QR-IJ-CD-AB | ST-AB-AB-QR | QR-ST-EF-QR | YZ-ST-GH-KL
+osibles contraseñas para  STOP :  QR-GH-OP-KL | UV-YZ-EF-QR | QR-IJ-CD-AB | ST-AB-AB-QR | QR-ST-EF-QR | YZ-ST-GH-KL
 
 # Ejemplo de uso de descifrado
 
