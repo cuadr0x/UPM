@@ -119,7 +119,7 @@ def getPossiblePasswords():
                         clave += chunks[k]+ "-"
             clave = clave[:-1]
             possiblePasswords.append(clave)
-        print "Posibles contraseñas para ", words[i], ": ", " | ".join(possiblePasswords)
+        print "Possible passwords for ", words[i], ": ", " | ".join(possiblePasswords)
 
 # descifra el texto en funcion de una clave que va rotando para encontrar el inicio correcto
 def decipher(str):
@@ -129,7 +129,7 @@ def decipher(str):
     for k in range(len(password)):
         plainText = ""
         count = 0
-        print "Texto descifrado con clave: ", str
+        print "Texto descifrado con clave: ", password 
         for i in text:
             for j in chunkAlphabet[chunks.index(password[count])]:
                 if i in j:
