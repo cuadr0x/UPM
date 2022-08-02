@@ -1,0 +1,338 @@
+FactorialRecursivo # 2 :
+* LEXEMA: 'n'
+ATRIBUTOS:
++ TIPO: 'entero'
++ DESPL: 0
+-------------------------------
+
+salto # 3 :
+
+FactorialDo # 4 :
+* LEXEMA: 'n'
+ATRIBUTOS:
++ TIPO: 'entero'
++ DESPL: 0
+-------------------------------
+* LEXEMA: 'factorial'
+ATRIBUTOS:
++ TIPO: 'entero'
++ DESPL: 2
+-------------------------------
+
+FactorialWhile # 5 :
+* LEXEMA: 'factorial'
+ATRIBUTOS:
++ TIPO: 'entero'
++ DESPL: 0
+-------------------------------
+* LEXEMA: 'i'
+ATRIBUTOS:
++ TIPO: 'entero'
++ DESPL: 2
+-------------------------------
+
+FactorialFor # 6 :
+* LEXEMA: 'n'
+ATRIBUTOS:
++ TIPO: 'entero'
++ DESPL: 0
+-------------------------------
+* LEXEMA: 'i'
+ATRIBUTOS:
++ TIPO: 'entero'
++ DESPL: 2
+-------------------------------
+* LEXEMA: 'factorial'
+ATRIBUTOS:
++ TIPO: 'entero'
++ DESPL: 4
+-------------------------------
+
+imprime # 7 :
+* LEXEMA: 's'
+ATRIBUTOS:
++ TIPO: 'cadena'
++ DESPL: 0
+-------------------------------
+* LEXEMA: 'msg'
+ATRIBUTOS:
++ TIPO: 'cadena'
++ DESPL: 128
+-------------------------------
+* LEXEMA: 'f'
+ATRIBUTOS:
++ TIPO: 'entero'
++ DESPL: 256
+-------------------------------
+
+cadena # 8 :
+* LEXEMA: 'log'
+ATRIBUTOS:
++ TIPO: 'logico'
++ DESPL: 0
+-------------------------------
+
+bisiesto # 9 :
+* LEXEMA: 'a'
+ATRIBUTOS:
++ TIPO: 'entero'
++ DESPL: 0
+-------------------------------
+
+dias # 10 :
+* LEXEMA: 'm'
+ATRIBUTOS:
++ TIPO: 'entero'
++ DESPL: 0
+-------------------------------
+* LEXEMA: 'a'
+ATRIBUTOS:
++ TIPO: 'entero'
++ DESPL: 2
+-------------------------------
+
+esFechaCorrecta # 11 :
+* LEXEMA: 'd'
+ATRIBUTOS:
++ TIPO: 'entero'
++ DESPL: 0
+-------------------------------
+* LEXEMA: 'm'
+ATRIBUTOS:
++ TIPO: 'entero'
++ DESPL: 2
+-------------------------------
+* LEXEMA: 'a'
+ATRIBUTOS:
++ TIPO: 'entero'
++ DESPL: 4
+-------------------------------
+
+imprimeSuma # 12 :
+* LEXEMA: 'v'
+ATRIBUTOS:
++ TIPO: 'entero'
++ DESPL: 0
+-------------------------------
+* LEXEMA: 'w'
+ATRIBUTOS:
++ TIPO: 'entero'
++ DESPL: 2
+-------------------------------
+
+potencia # 13 :
+* LEXEMA: 'z'
+ATRIBUTOS:
++ TIPO: 'entero'
++ DESPL: 0
+-------------------------------
+* LEXEMA: 'dim'
+ATRIBUTOS:
++ TIPO: 'entero'
++ DESPL: 2
+-------------------------------
+* LEXEMA: 's'
+ATRIBUTOS:
++ TIPO: 'entero'
++ DESPL: 4
+-------------------------------
+
+demo # 14 :
+* LEXEMA: 'v1'
+ATRIBUTOS:
++ TIPO: 'entero'
++ DESPL: 0
+-------------------------------
+* LEXEMA: 'v2'
+ATRIBUTOS:
++ TIPO: 'entero'
++ DESPL: 2
+-------------------------------
+* LEXEMA: 'v3'
+ATRIBUTOS:
++ TIPO: 'entero'
++ DESPL: 4
+-------------------------------
+* LEXEMA: 'zv'
+ATRIBUTOS:
++ TIPO: 'entero'
++ DESPL: 6
+-------------------------------
+
+main # 1 :
+* LEXEMA: 's'
+ATRIBUTOS:
++ TIPO: 'cadena'
++ DESPL: 0
+-------------------------------
+* LEXEMA: 'FactorialRecursivo'
+ATRIBUTOS:
++ TIPO: 'function'
++ NUMPARAM: 1
++ TipoParam1: 'entero'
++ ModoParam1: 1
++ TIPORETORNO: 'entero'
++ ETIQFUNCION: 'EtFactorialRecursivo'
+-------------------------------
+* LEXEMA: 'uno'
+ATRIBUTOS:
++ TIPO: 'entero'
++ DESPL: 128
+-------------------------------
+* LEXEMA: 'UNO'
+ATRIBUTOS:
++ TIPO: 'entero'
++ DESPL: 130
+-------------------------------
+* LEXEMA: 'salto'
+ATRIBUTOS:
++ TIPO: 'function'
++ NUMPARAM: 0
++ TIPORETORNO: 'cadena'
++ ETIQFUNCION: 'Etsalto'
+-------------------------------
+* LEXEMA: 'FactorialDo'
+ATRIBUTOS:
++ TIPO: 'function'
++ NUMPARAM: 1
++ TipoParam1: 'entero'
++ ModoParam1: 1
++ TIPORETORNO: 'entero'
++ ETIQFUNCION: 'EtFactorialDo'
+-------------------------------
+* LEXEMA: 'FactorialWhile'
+ATRIBUTOS:
++ TIPO: 'function'
++ NUMPARAM: 0
++ TIPORETORNO: 'entero'
++ ETIQFUNCION: 'EtFactorialWhile'
+-------------------------------
+* LEXEMA: 'FactorialFor'
+ATRIBUTOS:
++ TIPO: 'function'
++ NUMPARAM: 1
++ TipoParam1: 'entero'
++ ModoParam1: 1
++ TIPORETORNO: 'entero'
++ ETIQFUNCION: 'EtFactorialFor'
+-------------------------------
+* LEXEMA: 'For'
+ATRIBUTOS:
++ TIPO: 'entero'
++ DESPL: 132
+-------------------------------
+* LEXEMA: 'Do'
+ATRIBUTOS:
++ TIPO: 'entero'
++ DESPL: 134
+-------------------------------
+* LEXEMA: 'While'
+ATRIBUTOS:
++ TIPO: 'entero'
++ DESPL: 136
+-------------------------------
+* LEXEMA: 'imprime'
+ATRIBUTOS:
++ TIPO: 'function'
++ NUMPARAM: 3
++ TipoParam1: 'cadena'
++ ModoParam1: 1
++ TipoParam2: 'cadena'
++ ModoParam2: 1
++ TipoParam3: 'entero'
++ ModoParam3: 1
++ TIPORETORNO: 'tipo_vacio'
++ ETIQFUNCION: 'Etimprime'
+-------------------------------
+* LEXEMA: 'cadena'
+ATRIBUTOS:
++ TIPO: 'function'
++ NUMPARAM: 1
++ TipoParam1: 'logico'
++ ModoParam1: 1
++ TIPORETORNO: 'cadena'
++ ETIQFUNCION: 'Etcadena'
+-------------------------------
+* LEXEMA: 'num'
+ATRIBUTOS:
++ TIPO: 'entero'
++ DESPL: 138
+-------------------------------
+* LEXEMA: 'bisiesto'
+ATRIBUTOS:
++ TIPO: 'function'
++ NUMPARAM: 1
++ TipoParam1: 'entero'
++ ModoParam1: 1
++ TIPORETORNO: 'logico'
++ ETIQFUNCION: 'Etbisiesto'
+-------------------------------
+* LEXEMA: 'dias'
+ATRIBUTOS:
++ TIPO: 'function'
++ NUMPARAM: 2
++ TipoParam1: 'entero'
++ ModoParam1: 1
++ TipoParam2: 'entero'
++ ModoParam2: 1
++ TIPORETORNO: 'entero'
++ ETIQFUNCION: 'Etdias'
+-------------------------------
+* LEXEMA: 'esFechaCorrecta'
+ATRIBUTOS:
++ TIPO: 'function'
++ NUMPARAM: 3
++ TipoParam1: 'entero'
++ ModoParam1: 1
++ TipoParam2: 'entero'
++ ModoParam2: 1
++ TipoParam3: 'entero'
++ ModoParam3: 1
++ TIPORETORNO: 'logico'
++ ETIQFUNCION: 'EtesFechaCorrecta'
+-------------------------------
+* LEXEMA: 'imprimeSuma'
+ATRIBUTOS:
++ TIPO: 'function'
++ NUMPARAM: 2
++ TipoParam1: 'entero'
++ ModoParam1: 1
++ TipoParam2: 'entero'
++ ModoParam2: 1
++ TIPORETORNO: 'tipo_vacio'
++ ETIQFUNCION: 'EtimprimeSuma'
+-------------------------------
+* LEXEMA: 'potencia'
+ATRIBUTOS:
++ TIPO: 'function'
++ NUMPARAM: 2
++ TipoParam1: 'entero'
++ ModoParam1: 1
++ TipoParam2: 'entero'
++ ModoParam2: 1
++ TIPORETORNO: 'tipo_vacio'
++ ETIQFUNCION: 'Etpotencia'
+-------------------------------
+* LEXEMA: 'demo'
+ATRIBUTOS:
++ TIPO: 'function'
++ NUMPARAM: 0
++ TIPORETORNO: 'tipo_vacio'
++ ETIQFUNCION: 'Etdemo'
+-------------------------------
+* LEXEMA: 'i'
+ATRIBUTOS:
++ TIPO: 'entero'
++ DESPL: 140
+-------------------------------
+* LEXEMA: 'zv'
+ATRIBUTOS:
++ TIPO: 'entero'
++ DESPL: 142
+-------------------------------
+* LEXEMA: 'true'
+ATRIBUTOS:
++ TIPO: 'entero'
++ DESPL: 144
+-------------------------------
+
